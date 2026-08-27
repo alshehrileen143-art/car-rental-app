@@ -1,0 +1,85 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  CUSTOMER
+  ADMIN
+}
+
+enum BookingStatus {
+  CONFIRMED
+  CANCELLED
+}
+
+model User {
+  id           String    @id @default(cuid())
+  name         String
+  email        String    @unique
+  passwordHash String
+  role         Role      @default(CUSTOMER)
+  isBlocked    Boolean   @default(false)
+  createdAt    DateTime  @default(now())
+  bookings     Booking[]
+  reviews      Review[]
+}
+
+model Car {
+  id           String     @id @default(cuid())
+  name         String
+  brand        String
+  category     String
+  description  String
+  pricePerDay  Float
+  seats        Int
+  transmission String
+  fuelType     String
+  location     String?
+  isActive     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  images       CarImage[]
+  bookings     Booking[]
+  reviews      Review[]
+}
+
+model CarImage {
+  id    String @id @default(cuid())
+  url   String
+  carId String
+  car   Car    @relation(fields: [carId], references: [id], onDelete: Cascade)
+}
+
+model Booking {
+  id         String        @id @default(cuid())
+  carId      String
+  userId     String
+  startDate  DateTime
+  endDate    DateTime
+  totalPrice Float
+  status     BookingStatus @default(CONFIRMED)
+  createdAt  DateTime      @default(now())
+  car        Car           @relation(fields: [carId], references: [id])
+  user       User          @relation(fields: [userId], references: [id])
+
+  @@index([carId, startDate, endDate])
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  carId     String
+  userId    String
+  rating    Int
+  comment   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  car       Car      @relation(fields: [carId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id])
+
+  @@unique([carId, userId])
+}
