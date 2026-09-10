@@ -25,6 +25,12 @@ export default async function AdminLayout({ children }: { children: ReactNode })
           السيارات
         </Link>
         <Link
+          href="/admin/catalog"
+          className="rounded-lg px-3 py-2 text-sm hover:bg-black/5 dark:hover:bg-white/10"
+        >
+          مخزن السيارات
+        </Link>
+        <Link
           href="/admin/bookings"
           className="rounded-lg px-3 py-2 text-sm hover:bg-black/5 dark:hover:bg-white/10"
         >

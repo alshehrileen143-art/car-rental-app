@@ -83,3 +83,13 @@ model Review {
 
   @@unique([carId, userId])
 }
+
+model CarCatalog {
+  id          String   @id @default(cuid())
+  name        String
+  brand       String
+  category    String
+  description String
+  isUsed      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}

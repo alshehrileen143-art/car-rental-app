@@ -1,0 +1,78 @@
+Body_style,Name,Introduction_year,Model_code,Current_gen_year,Main_markets,Description
+Sedan,Avalon,1994,XX50,2018,China,Full-size sedan mainly produced and marketed in North America and the Middle East (both until 2022) and China. Hybrid powertrain is available.
+Sedan,bZ3,2022,EA10,2022,China,Battery electric compact sedan co-developed with BYD.
+Sedan,bZ7,2025,EP10,2025,China,Battery electric full-size sedan co-developed with GAC.
+Sedan,Camry,1982,XV80,2023,"Global (except for most parts of Europe, and all of Japan)",Mid-size sedan (D-segment) marketed globally. Hybrid powertrain is standard/optional.
+Sedan,Century Sedan,1967,G60,2018,Japan,"Traditional luxury flagship sedan, mainly marketed in Japan. Hybrid powertrain is standard."
+Sedan,Corolla,1966,E210,2018,All markets except India,Compact sedan (C-segment) marketed globally. Hybrid powertrain is optional.
+Sedan,Levin L,2021,E210,2021,China,Long-wheelbase versions of the Corolla for the Chinese market.
+Sedan,Crown,1955,S230/232 (sedan),2023,Japan and China,Rear-wheel-drive luxury sedan available in hybrid and fuel cell hydrogen powertrains.
+Sedan,Crown,1955,S235 (crossover),2022,"Japan, North America, etc.",All-wheel-drive luxury crossover sedan. Hybrid powertrain is standard.
+Sedan,Mirai,2014,JPD20,2020,"Japan, North America, Europe, etc.",Fuel-cell/hydrogen executive sedan.
+Sedan,Prius,1997,XW60,2022,"Japan, North America, Europe, etc.",Hybrid/plug-in hybrid compact liftback (C-segment). The first mass-marketed hybrid electric car. Formerly sold in Australasia and India (within South Asia).
+Sedan,Vios/ Yaris,2002,XP150 AC100,2013 2022,"Emerging markets in Asia, Africa and Latin America (also in Taiwan)","Subcompact sedan (B-segment) produced primarily for emerging markets. The Vios nameplate is used in China, Taiwan and Southeast Asian countries, while the Yaris nameplate is used in China, India, Middle East, Latin America, and Thailand (as the Yaris Ativ)."
+Hatchback,Agya/ Wigo,2013,A350[A],2023,Southeast Asia and parts of Latin America,"City car developed by Daihatsu for emerging markets, rebadged Daihatsu Ayla."
+Hatchback,Aqua,2011,XP210,2021,Japan,Hybrid-only subcompact hatchback (B-segment). First generation was marketed as the Prius c overseas.
+Hatchback,Corolla,1966,E210,2018,In about half of the world,Compact hatchback (C-segment). Successor to the Auris. Hybrid powertrain is optional.
+Hatchback,GR Corolla,2022,E210,2022,"Those with Gazoo Racing presence, except Europe, Singapore and Taiwan",High-performance variant of the Corolla hatchback (E210).
+Hatchback,Glanza/ Starlet,2019,,2022,India and Sub-Saharan Africa,"Subcompact hatchback (B-segment) developed and manufactured by Suzuki, primarily marketed in India (as Glanza) and Africa (as Starlet). Rebadged Suzuki Baleno."
+Hatchback,Vitz,1998 (nameplate),,2023,Sub-Saharan Africa,"City car (A-segment) developed by Suzuki for almost all African markets, rebadged Suzuki Celerio."
+Hatchback,Yaris (XP150),2013,XP150,2013,"Emerging markets in Asia, Africa and Latin America",Subcompact hatchback (B-segment) produced primarily for emerging markets. Hatchback version of the Vios.
+Hatchback,Yaris (XP210),1999,XP210,2020,"Japan, Europe, Australasia, etc.",Subcompact hatchback (B-segment) produced primarily for developed markets. Hybrid powertrain is optional.
+Hatchback,GR Yaris,2020,XP210,2020,"Those with Gazoo Racing presence, except the US and Canada","High-performance, three-door version of the Yaris (XP210), mass-produced as a homologation model for the FIA World Rally Championship."
+Station wagon,Corolla,1966,E210,2018,"Europe, Japan and New Zealand","Station wagon version of the Corolla, primarily marketed in Europe, Japan and New Zealand. Marketed with a narrower wheelbase in Japan. Hybrid powertrain is optional."
+Crossover SUV,Aygo X,2022,AB70,2022,Europe and Israel (West Asia),"Crossover city car (A-segment) designed for the European market, based on the Yaris platform. Product also sold in Israel, a West Asian country."
+Crossover SUV,bZ3X,2024,EG10,2024,China,Battery electric compact crossover SUV co-developed with GAC.
+Crossover SUV,bZ4X/bZ,2022,EA10,2022,In many markets worldwide,Battery electric compact crossover SUV.
+Crossover SUV,bZ4X Touring/bZ Woodland,2025,EA10,2025,"North America, Japan, Europe, etc.",Battery electric mid-size crossover SUV.
+Crossover SUV,bZ5,2024,EA11,2024,China,Battery electric crossover SUV co-developed with BYD and FAW.
+Crossover SUV,C-HR+/C-HR,2025,,2025,"North America, Japan, Europe, etc.",Battery electric compact crossover SUV.
+Crossover SUV,C-HR,2016,AX20,2023,"Europe, Australasia, etc.",Compact crossover based on the GA-C platform.
+Crossover SUV,Century SUV,2023,G70,2023,Japan and China,SUV variation of the Century based on the GA-K platform. Plug-in hybrid powertrain is standard.
+Crossover SUV,Corolla Cross,2020,XG10,2020,All markets except India (South Asia) and parts of Africa,Compact crossover based on the Corolla platform. Hybrid powertrain is optional.
+Crossover SUV,Frontlander,2021,XG10,2021,China,Rebadged Corolla Cross for China produced by GAC Toyota.
+Crossover SUV,Crown Estate/Signia,1955 (Crown nameplate),S238,2023,North America and Japan,"All-wheel-drive mid-size crossover available in hybrid powertrain, successor to the Venza in North America."
+Crossover SUV,Crown Sport,1955 (Crown nameplate),S236,2023,Japan,All-wheel-drive mid-size crossover available in hybrid and plug-in hybrid powertrains.
+Crossover SUV,Grand Highlander,2023,AS10,2023,North America,Mid-size crossover primarily marketed in North America as a larger variation of the Highlander. Third-row seating is standard. Hybrid powertrain is optional.
+Crossover SUV,Harrier,1997,XU80,2020,Japan,"Mid-size crossover, built on the same platform as the RAV4."
+Crossover SUV,Highlander/ Kluger/ Crown Kluger,2000,XU70,2019,"North America, Australasia, China, Japan and the Middle East","Mid-size crossover primarily marketed in North America, Australasia and select others. Third-row seating is standard. Hybrid powertrain is optional."
+Crossover SUV,Highlander BEV,2000,,2026,North America,Battery electric mid-size crossover primarily marketed in North America. Third-row seating is standard.
+Crossover SUV,Raize,2019,A200[B],2019,"Japan, Southeast Asia, Middle East, Mexico etc.","Subcompact crossover developed by Daihatsu, primarily marketed in Japan and select others. Rebadged A200 series Daihatsu Rocky. Hybrid powertrain is optional."
+Crossover SUV,RAV4,1994,XA60,2025,All markets except India (South Asia) and parts of Africa,Compact crossover marketed globally. Traditionally the best-selling Toyota SUV. Hybrid and plug-in hybrid powertrains are optional.
+Crossover SUV,Wildlander,2020,XA60,2025,China,Rebadged RAV4 for China produced by GAC Toyota. Hybrid and plug-in hybrid option available.
+Crossover SUV,Rush,2006,F800/ F850,2017,Southeast Asia,"Rear-wheel-drive mini SUV developed by Daihatsu for the Indonesian market. Rebadged Daihatsu Terios. Primarily marketed in Southeast Asia, Middle East, and Africa. Third-row seating is standard in most markets, and optional in some markets."
+Crossover SUV,Urban Cruiser / Urban Cruiser Ebella,2008 (nameplate),,2024,"Europe, India, etc.","Battery electric subcompact crossover developed by Suzuki, rebadged Suzuki e Vitara."
+Crossover SUV,Urban Cruiser / Urban Cruiser Hyryder,2008 (nameplate),YM,2022,"India, Middle East, Africa","Subcompact crossover developed by Suzuki, rebadged Suzuki Grand Vitara. Primarily marketed in India (as the Urban Cruiser Hyryder) and Africa. Mild hybrid and full hybrid powertrains are available."
+Crossover SUV,Urban Cruiser Taisor / Starlet Cross,2008 (nameplate),,2024,"India, Sub-Saharan Africa","Subcompact crossover developed by Suzuki, rebadged Suzuki Fronx. Mild hybrid powertrain is available."
+Crossover SUV,Yaris Cross,2020,XP210,2020,"Japan, Europe, Australasia, etc.","Subcompact crossover based on the Yaris platform, primarily marketed in Europe, Japan, and Australasia. Hybrid powertrain is optional."
+Crossover SUV,Yaris Cross,2020,AC200,2023,"Southeast Asia (except Singapore), Taiwan and Latin America","Subcompact crossover based on the DNGA platform, marketed in Indonesia and others. Hybrid powertrain is optional."
+Body-on-frame SUV,4Runner,1984,N500,2024,Americas,"Body-on-frame mid-size SUV based on the Tacoma, marketed primarily in North America. Third-row seating is optional."
+Body-on-frame SUV,Fortuner/ SW4,2005,AN150/ AN160,2015,Emerging markets,"Body-on-frame mid-size SUV based on the Hilux, marketed globally. Third-row seating is standard in many markets, and optional in some markets."
+Body-on-frame SUV,Land Cruiser 70,1951,J70,1984,"Japan, Middle East, Africa and Australasia",Full-size body-on-frame SUV. The oldest continuing Toyota nameplate. The J70 is an off-road oriented model produced with minimal changes since 1984.
+Body-on-frame SUV,Land Cruiser 300,1951,J300,2021,"Worldwide except Europe, North America and select other regions",Full-size body-on-frame SUV. The oldest continuing Toyota nameplate. The J70 is an off-road oriented model produced with minimal changes since 1984.
+Body-on-frame SUV,Land Cruiser Prado/250,1984,J250,2023,"All markets except South Korea, Brazil and some other places","Mid- or full-size body-on-frame SUV, smaller than the full-size Land Cruiser."
+Body-on-frame SUV,Land Cruiser FJ,2025,J240,2025,"Southeast Asia, Japan, etc.",Compact body-on-frame SUV.
+Body-on-frame SUV,Sequoia,2001,XK80,2022,North America and Costa Rica,Full-size body-on-frame SUV based on the Tundra. Primarily marketed in North America. Hybrid powertrain and third-row seating are standard.
+MPV/ minivan,Alphard,2002,AH40,2023,Asia,"Minivans with rear sliding doors developed for the Japanese market and marketed throughout East, South and Southeast Asia. Third-row seating is standard. Hybrid powertrain is optional."
+MPV/ minivan,Vellfire/ Crown Vellfire,2008,AH40,2023,Asia,"Minivans with rear sliding doors developed for the Japanese market and marketed throughout East, South and Southeast Asia. Third-row seating is standard. Hybrid powertrain is optional."
+MPV/ minivan,Avanza,2003,W100[C],2021,Southeast Asia and Mexico,"Compact MPV developed by Daihatsu for the Indonesian market and marketed throughout emerging markets in Asia, Africa and Latin America. Third-row seating is standard in most markets, and optional in some markets. Veloz is the upmarket equivalent of the Avanza, which became its own model in 2021."
+MPV/ minivan,Veloz,2021,W100/ W150[D],2021,Southeast Asia and the Middle East,"Compact MPV developed by Daihatsu for the Indonesian market and marketed throughout emerging markets in Asia, Africa and Latin America. Third-row seating is standard in most markets, and optional in some markets. Veloz is the upmarket equivalent of the Avanza, which became its own model in 2021."
+MPV/ minivan,Calya,2016,B400[E],2016,Indonesia,Three-row mini MPV developed by Daihatsu and marketed exclusively in the Indonesian market. Third-row seating is standard.
+MPV/ minivan,HiAce Commuter/ Grandia/ Premio,2019,H300,2019,"Asia-Pacific, some parts of Africa, Middle East, etc.",Passenger van version of the H300 series HiAce.
+MPV/ minivan,Innova,2004,AN140,2015,"Southeast Asia, India, etc.","Second-generation Innova, a rear-wheel-drive, body-on-frame mid-size MPV marketed throughout emerging markets in Asia. Third-row seating is standard."
+MPV/ minivan,Innova,2004,AG10,2022,"Southeast Asia, India, etc.","Third-generation Innova, a front-wheel-drive mid-size MPV, marketed as the Kijang Innova Zenix in Indonesia and as the Innova Hycross in India. Third-row seating is standard. Hybrid powertrain is optional."
+MPV/ minivan,Noah,2001,R90,2022,"Japan, etc.",Minivans with rear sliding doors developed for the Japanese market and also marketed in limited Asian markets. Third-row seating is standard. Hybrid powertrain is optional.
+MPV/ minivan,Voxy,2001,R90,2022,"Japan, etc.",Minivans with rear sliding doors developed for the Japanese market and also marketed in limited Asian markets. Third-row seating is standard. Hybrid powertrain is optional.
+MPV/ minivan,ProAce Verso,2017,,2017,primarily Europe but also for Israel and Turkey (both within West Asia),Passenger van version of the ProAce. Electric powertrain is optional.
+MPV/ minivan,ProAce City Verso,2019,,2019,mainly Europe but also sold in Turkey and Israel (both within West Asia),Passenger van version of the ProAce City. Electric powertrain is optional.
+MPV/ minivan,Roomy,2016,M900[F],2016,Japan,"Two-row mini MPV with rear sliding doors developed by Daihatsu. Marketed in Japan. Rebadged Daihatsu Thor. Also marketed under ""Tank"" nameplate until September 2020."
+MPV/ minivan,Rumion,2021,,2021,"India, Africa","Three-row compact MPV developed and manufactured by Suzuki, primarily marketed in Africa. Rebadged Suzuki Ertiga."
+MPV/ minivan,Sienna/Granvia,1997,XL40,2020,"North America, China, etc.",Mid- and full-size minivan with rear sliding doors developed for the North American market. Third-row seating and hybrid powertrain are standard.
+MPV/ minivan,Sienta,2003,XP210,2022,"Japan, etc.",Mini MPV with rear sliding doors developed for the Japanese market and marketed in several Asian markets. Third-row seating is optional. Hybrid powertrain is optional.
+Sports car,GR86,2012,ZN8,2021,Those with Gazoo Racing presence,"Two-door, rear-wheel-drive 2+2 sports car jointly developed with Subaru alongside the near-identical Subaru BRZ. Marketed under Gazoo Racing branding since 2021."
+Sports car,GR GT,2025,,2025,Worldwide,"Two-door, two-seater rear-wheel-drive sports car. Marketed under Gazoo Racing branding without any Toyota badges."
+Kei car,COMS,2000,,2012,Japan,Single-seater battery electric microcar developed by Toyota Auto Body.
+Kei car,Copen GR Sport,2019,LA400[G],2019,Japan,Kei roadster developed by Daihatsu. Rebadged Daihatsu Copen GR Sport.
+Kei car,Pixis Epoch,2011,LA350[H],2017,Japan,Kei hatchback developed by Daihatsu. Rebadged LA350 series Daihatsu Mira e:S.
+Kei car,,,,,,
+Kei car,,,,,,
