@@ -118,7 +118,7 @@ export default function ReviewsSection({
           <button
             type="submit"
             disabled={loading}
-            className="w-fit rounded-full bg-black px-5 py-2 text-sm text-white hover:bg-black/80 disabled:opacity-50 dark:bg-white dark:text-black dark:hover:bg-white/80"
+            className="w-fit rounded-full bg-primary px-5 py-2 text-sm text-white hover:bg-primary-hover disabled:opacity-50"
           >
             {loading ? "جاري الإرسال..." : myReview ? "تحديث التقييم" : "نشر التقييم"}
           </button>

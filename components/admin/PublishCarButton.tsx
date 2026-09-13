@@ -45,7 +45,7 @@ export default function PublishCarButton({ catalogId }: { catalogId: string }) {
     return (
       <button
         onClick={() => setOpen(true)}
-        className="rounded-full bg-black px-3 py-1.5 text-xs text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80"
+        className="rounded-full bg-primary px-3 py-1.5 text-xs text-white hover:bg-primary-hover"
       >
         نشر
       </button>
@@ -117,7 +117,7 @@ export default function PublishCarButton({ catalogId }: { catalogId: string }) {
           <button
             onClick={handlePublish}
             disabled={loading}
-            className="rounded-full bg-black px-3 py-1.5 text-xs text-white hover:bg-black/80 disabled:opacity-50 dark:bg-white dark:text-black dark:hover:bg-white/80"
+            className="rounded-full bg-primary px-3 py-1.5 text-xs text-white hover:bg-primary-hover disabled:opacity-50"
           >
             {loading ? "جاري النشر..." : "نشر السيارة"}
           </button>

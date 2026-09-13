@@ -227,7 +227,7 @@ export default function CarForm({ carId, initialValues }: CarFormProps) {
       <button
         type="submit"
         disabled={loading}
-        className="mt-2 w-fit rounded-full bg-black px-5 py-2.5 text-white hover:bg-black/80 disabled:opacity-50 dark:bg-white dark:text-black dark:hover:bg-white/80"
+        className="mt-2 w-fit rounded-full bg-primary px-5 py-2.5 text-white hover:bg-primary-hover disabled:opacity-50"
       >
         {loading ? "جاري الحفظ..." : isEdit ? "حفظ التعديلات" : "إضافة السيارة"}
       </button>

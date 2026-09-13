@@ -103,7 +103,7 @@ export default function BookingForm({ carId, pricePerDay, bookedDates }: Booking
         <button
           onClick={handleBook}
           disabled={!canBook || loading}
-          className="w-full rounded-full bg-black px-5 py-2.5 text-white hover:bg-black/80 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-white dark:text-black dark:hover:bg-white/80"
+          className="w-full rounded-full bg-primary px-5 py-2.5 text-white hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"
         >
           {loading ? "جاري الحجز..." : session ? "احجز الآن" : "سجّل الدخول للحجز"}
         </button>

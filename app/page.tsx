@@ -152,7 +152,7 @@ export default async function LandingPage() {
 
         <button
           type="submit"
-          className="mt-2 w-full rounded-full bg-black px-5 py-3 font-medium text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80"
+          className="mt-2 w-full rounded-full bg-primary px-5 py-3 font-medium text-white hover:bg-primary-hover"
         >
           ابحث عن سيارة
         </button>

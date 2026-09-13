@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header className="border-b border-black/10 dark:border-white/10 bg-white dark:bg-black">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-        <Link href="/" className="text-lg font-bold">
+        <Link href="/" className="text-lg font-bold text-primary">
           تأجير السيارات
         </Link>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
               </span>
               <button
                 onClick={() => signOut({ callbackUrl: "/" })}
-                className="rounded-full bg-black px-4 py-1.5 text-white transition-colors hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80"
+                className="rounded-full bg-primary px-4 py-1.5 text-white transition-colors hover:bg-primary-hover"
               >
                 تسجيل الخروج
               </button>
@@ -50,7 +50,7 @@ export default function Navbar() {
               </Link>
               <Link
                 href="/register"
-                className="rounded-full bg-black px-4 py-1.5 text-white transition-colors hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80"
+                className="rounded-full bg-primary px-4 py-1.5 text-white transition-colors hover:bg-primary-hover"
               >
                 إنشاء حساب
               </Link>

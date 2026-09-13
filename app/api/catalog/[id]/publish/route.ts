@@ -1,6 +1,16 @@
 import { prisma } from "@/lib/prisma";
 import { NextResponse } from "next/server";
 
+function mapCategory(wikiCategory: string): string {
+  const c = wikiCategory.toLowerCase();
+  if (c.includes("suv") || c.includes("crossover")) return "suv";
+  if (c.includes("van") || c.includes("minivan")) return "van";
+  if (c.includes("pickup") || c.includes("truck")) return "pickup";
+  if (c.includes("sedan")) return "sedan";
+  if (c.includes("kei") || c.includes("hatchback") || c.includes("coupe")) return "economy";
+  return "sedan";
+}
+
 export async function POST(
   req: Request,
   { params }: { params: Promise<{ id: string }> }
@@ -18,7 +28,7 @@ export async function POST(
       data: {
         name: catalogItem.name,
         brand: catalogItem.brand,
-        category: catalogItem.category,
+        category: mapCategory(catalogItem.category),
         description: catalogItem.description,
         pricePerDay: body.pricePerDay,
         seats: body.seats,

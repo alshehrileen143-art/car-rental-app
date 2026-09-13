@@ -48,7 +48,7 @@ export default function FaqChatbot() {
     <div className="fixed bottom-6 right-6 z-50">
       {isOpen && (
         <div className="mb-3 w-80 h-96 rounded-lg bg-white shadow-xl border flex flex-col">
-          <div className="bg-blue-600 text-white p-3 rounded-t-lg flex justify-between items-center">
+          <div className="bg-primary text-white p-3 rounded-t-lg flex justify-between items-center">
             <span className="font-semibold">مساعد الأسئلة الشائعة</span>
             <button onClick={() => setIsOpen(false)}>✕</button>
           </div>
@@ -59,15 +59,15 @@ export default function FaqChatbot() {
                 key={i}
                 className={`p-2 rounded-lg max-w-[80%] text-sm ${
                   msg.role === "user"
-                    ? "bg-blue-100 ml-auto text-right"
-                    : "bg-gray-100 mr-auto text-right"
+                    ? "bg-primary text-white ml-auto text-right"
+                    : "bg-[#F0F0F0] text-[#1A1A1A] mr-auto text-right"
                 }`}
               >
                 {msg.content}
               </div>
             ))}
             {loading && (
-              <div className="bg-gray-100 p-2 rounded-lg max-w-[80%] text-sm mr-auto">
+              <div className="bg-[#F0F0F0] text-[#1A1A1A] p-2 rounded-lg max-w-[80%] text-sm mr-auto">
                 يكتب...
               </div>
             )}
@@ -86,7 +86,7 @@ export default function FaqChatbot() {
             <button
               onClick={sendMessage}
               disabled={loading}
-              className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm disabled:opacity-50"
+              className="bg-primary text-white px-3 py-1 rounded-lg text-sm disabled:opacity-50"
             >
               إرسال
             </button>
@@ -96,7 +96,7 @@ export default function FaqChatbot() {
 
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-14 h-14 shadow-lg flex items-center justify-center text-2xl"
+        className="bg-primary hover:bg-primary-hover text-white rounded-full w-14 h-14 shadow-lg flex items-center justify-center text-2xl"
       >
         💬
       </button>
